@@ -6,11 +6,11 @@ body{
     font-family: arial, sans-serif, tahoma; 
 }
 
-div.container{
+.container{
 	width: 100%;
 }
 
-div.header, div.footer{
+.header, .footer{
 	background-color: #283018;
 	color: #f0eceb;
 	padding: 1px;
@@ -41,31 +41,37 @@ a:active{
     text-decoration:none;
 }
 
-div.left{
+.left{
 	background-color: #729f98;
 	margin: auto;
 	float: left;
 	max-width: 15%;
+	min-height: 100%;
 }
 
-div.middle{
-    background-color: #fff;
-	margin:auto;
+.middle{
+    background-color: #f0eceb;
+    margin:auto;
 	margin-left: 20%;
 	max-width: 60%;
 }
 
-div.right{
-	background-color: #729f98;
+.right{
+	background-color: #f0eceb;
 	margin: auto;
 	float: right;
 	max-width: 15%;
 }
 
-div.bottom{
+.bottom{
    position: relative;
    max-width: 100%;
    top: 150px;
    background-color: #283018;
    color: #729f98;
+}
+
+#googleMap{
+    background-color: #283018;
+    padding: 0;
 }
