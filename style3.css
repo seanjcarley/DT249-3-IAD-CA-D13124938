@@ -45,7 +45,7 @@ a:active{
 	background-color: #729f98;
 	margin: auto;
 	float: left;
-	max-width: 15%;
+	max-width: 20%;
 	min-height: 100%;
 }
 
@@ -71,7 +71,34 @@ a:active{
    color: #729f98;
 }
 
+.logo{
+    position: relative;
+    max-width: 30%;
+    background-color: #283018;
+    color: #729f98;
+    clear: left;
+}
+
+.login{
+    position: relative;
+    max-width: 100%;
+    float: left;
+    background-color: #283018;
+    color: #729f98;
+}
+
 #googleMap{
     background-color: #283018;
+    margin: auto;
     padding: 0;
+}
+
+#fnameval, #snameval, #emailval, #unameval, #pwordval, #confirmval{
+    visibility: hidden;
+    color: red;
+    font-weight: bold;
+}
+
+#button1{
+    visibility: hidden;
 }

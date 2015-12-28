@@ -30,8 +30,8 @@
 	<body>
 		<div class="container">
 			<div class="header">
-				<div id="logo">Pay-A-Toll.ie</div>
-				<div id="login">
+				<div class="logo">Pay-A-Toll.ie</div>
+				<div class="login">
 					<form action="php_files/login.php" method="post">
 						<table>
 							<tr>
@@ -57,11 +57,12 @@
 				</div>
 			</div>
 			<div class="left">
-				<img src="images_files\Belfast.png"></img>
-				<img src="images_files\Cork.png"></img>
-				<img src="images_files\Dublin.png"></img>
-				<img src="images_files\Galway.png"></img>
-				<img src="images_files\Limerick.png"></img>
+				<h3>Select start and end</h3>
+				<input type="image" src="images_files\Belfast.png" alt="Belfast" width="120" height="45">
+				<input type="image" src="images_files\Cork.png" alt="Cork" width="120" height="45">
+				<input type="image" src="images_files\Dublin.png" alt="Dublin" width="120" height="45">
+				<input type="image" src="images_files\Galway.png" alt="Galway" width="120" height="45">
+				<input type="image" src="images_files\Limerick.png" alt="Limerick" width="120px" height="45px">
 			</div>
 			<div id="googleMap" style="width:380px;height:380px"></div>
 			<div class="middle"></div>
